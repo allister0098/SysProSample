@@ -5,3 +5,4 @@ poll: poll/poll_example
 kqueue_kevent: poll/kqueue_kevent
 writev: scatter-gather-io/writev
 readv: scatter-gather-io/readv
+mmap: mmap/mmap
