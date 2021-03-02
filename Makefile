@@ -7,3 +7,4 @@ writev: scatter-gather-io/writev
 readv: scatter-gather-io/readv
 mmap: mmap/mmap
 fstat: stat/fstat
+ioctl: ioctl/ioctl
