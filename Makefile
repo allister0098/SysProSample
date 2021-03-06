@@ -8,3 +8,4 @@ readv: scatter-gather-io/readv
 mmap: mmap/mmap
 fstat: stat/fstat
 ioctl: ioctl/ioctl
+atexit: exit/atexit
