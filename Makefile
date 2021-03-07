@@ -10,3 +10,4 @@ fstat: stat/fstat
 ioctl: ioctl/ioctl
 atexit: exit/atexit
 wait: wait/wait
+system: wait/system
