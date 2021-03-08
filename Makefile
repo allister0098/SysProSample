@@ -12,3 +12,4 @@ atexit: exit/atexit
 wait: wait/wait
 system: wait/system
 daemon: daemon/daemon
+priority: priority/priority
