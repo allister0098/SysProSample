@@ -7,6 +7,7 @@
  */
 int main() {
     int ret;
+    ret = setpriority(PRIO_PGRP, 0, 10);
     ret = getpriority(PRIO_PROCESS, 0);
     printf("nice valie is %d", ret);
 }
