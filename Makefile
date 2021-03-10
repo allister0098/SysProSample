@@ -13,3 +13,4 @@ wait: wait/wait
 system: wait/system
 daemon: daemon/daemon
 priority: priority/priority
+affinity: affinity/affinity

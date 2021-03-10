@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<sched.h>
+#include<sys/resource.h>
 
 int main() {
     cpu_set_t set;
@@ -14,5 +15,8 @@ int main() {
 
     for (i = 0; i < CPU_SETSIZE; i++)
         int cpu;
+    
+    cpu = CPU_ISSET(i, &set);
+    printf("cpu=%i is %s\n", i, cpu ? "set" : "unset");
 }
 
