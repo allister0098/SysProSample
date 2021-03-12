@@ -22,6 +22,19 @@ int get_inode(int fd)
     return buf.st_ino;
 }
 
+int get_size(int fd) {
+    struct stat buf;
+    int ret;
+
+    ret = fstat(fd, &buf);
+    if (ret < 0) {
+        perror("fstat");
+        return -1;
+    }
+
+    return buf.st_size;
+}
+
 int main(int argc, char *argv[]) {
     int fd, inode;
 
