@@ -15,3 +15,4 @@ system: wait/system
 daemon: daemon/daemon
 priority: priority/priority
 affinity: affinity/affinity
+check_affinity: affinity/check_affinity
